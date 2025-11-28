@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouquet & Boutique</title>
+
+    <!-- aall linkk -->
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./idnex.css">
+
+
+
+    <!-- mualai dari sini yaaakk -->
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-flower">
+            <div class="loader-petal"></div>
+            <div class="loader-petal"></div>
+            <div class="loader-petal"></div>
+            <div class="loader-petal"></div>
+            <div class="loader-petal"></div>
+            <div class="loader-petal"></div>
+        </div>
+    </div>
+
+    <!-- Floating Petals -->
+    <div class="petals-container" id="petals"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-flower1 me-2"></i>Bouquet Boutique
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#categories">Kategori</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+                <div class="ms-lg-4">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-content">
+                        <h1>Ungkapkan Cinta dengan <span>Setiap bunga yang dirangkai</span> Dengan rasa</h1>
+                        <p>Hadirkan kebahagiaan dengan sentuhan kelopak yang menawan.</p>
+                        <div class="d-flex gap-3 flex-wrap">
+                            <a href="#products" class="btn btn-pink">
+                                <i class="bi bi-bag-heart me-2"></i>Belanja Sekarang
+                            </a>
+                            <a href="#categories" class="btn btn-outline-pink">
+                                <i class="bi bi-collection me-2"></i>Lihat Koleksi
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image text-center">
+                        <img src="a1.jpg" alt="Buket Bunga Cantik" class="img-fluid rounded-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="200">0</h3>
+                        <p>Pelanggan Puas</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="100">0</h3>
+                        <p>Jenis Bunga</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="99+">0</h3>
+                        <p>testimoni</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-item">
+                        <h3 class="counter" data-target="99+">0</h3>
+                        <p>% Rating Positif</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Koleksi Terpopuler</h2>
+                <p>Buket bunga terlaris yang dipilih dengan cinta untuk momen spesialmu</p>
+            </div>
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="product-card">
+                        <span class="badge-sale">Best Seller</span>
+                        <div class="product-img">
+                            <img src="a2.jpg" alt="Buket Pita Satin Elegant">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5>Buket Pita Satin Elegant</h5>
+                            </del></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="a4.jpg" alt="Buket Pita Satin Kriwil">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5>Buket Pita Satin Kriwil</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <span class="badge-sale">Best Seller</span>
+                        <div class="product-img">
+                            <img src="a6.jpg" alt="Buket Mawar Artifical">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5>Buket Mawar Artifical</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="usnack.jpg" alt="Buket Snack">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5>Buket Snack</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="a17.jpg" alt="Buket Artifical+Custom Foto">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <h5>Buket Artifical+Custom Foto</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <span class="badge-sale">New</span>
+                        <div class="product-img">
+                            <img src="a21.jpg" alt="Buket Flower+Snack">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5>Buket Flower+Snack</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="a13.jpg" alt="Buket Kriwil+aksesoris">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h5>Buket Kriwil+aksesoris</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-card">
+                        <span class="badge-sale">Limited</span>
+                        <div class="product-img">
+                            <img src="a25.jpg" alt="Buket Uang">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm rounded-pill">
+                                    <i class="bi bi-cart-plus me-2"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                            <h5>Buket Uang</h5>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="category-section" id="categories">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Kategori Bunga</h2>
+                <p>Temukan buket sempurna untuk setiap kesempatan</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="category-card">
+                        <img src="a3.jpg" alt="Buket Romantis">
+                        <div class="category-overlay">
+                            <div>
+                                <h4><i class="bi bi-heart-fill me-2"></i>Buket Romantis</h4>
+                                </p>bebas request</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-card">
+                        <img src="a1.jpg" alt="Buket Special">
+                        <div class="category-overlay">
+                            <div>
+                                <h4><i class="bi bi-gift-fill me-2"></i>Buket Special</h4>
+                                </p>bebas request</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-card">
+                        <img src="a17.jpg" alt="Buket Ulang Tahun">
+                        <div class="category-overlay">
+                            <div>
+                                <h4><i class="bi bi-balloon-heart-fill me-2"></i>Buket Ulang Tahun</h4>
+                                </p>bebas request</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="category-card">
+                        <img src="a6.jpg" alt="Buket Graduation Day">
+                        <div class="category-overlay">
+                            <div>
+                                <h4><i class="bi bi-mortarboard-fill me-2"></i>Buket Graduation Day</h4>
+                                <p>bebas request</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-card">
+                        <img src="a30.jpg" alt="Buket Uang">
+                        <div class="category-overlay">
+                            <div>
+                                <h4><i class="bi bi-emoji-smile-fill me-2"></i>Buket Uang</h4>
+                                <p>bebas request</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-card">
+                        <img src="a24.jpg" alt="Custom Buket">
+                        <div class="category-overlay">
+                            <div>
+                                <h4><i class="bi bi-palette-fill me-2"></i>Custom Order</h4>
+                                <p>Desain Sesuai Keinginan</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Mengapa Harus Bouquet Boutique?</h2>
+                <p>Komitmen untuk memberikan yang terbaik</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-flower2"></i>
+                        </div>
+                        <h5>Bunga Pilihan</h5>
+                        <p>memilih bunga dengan kualitas terbaik agar selalu menjadi kenangan yang indah</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h5>Transaksi mudah</h5>
+                        <p>Bisa ambil ditempat/Cod</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-palette"></i>
+                        </div>
+                        <h5>Desain Eksklusif</h5>
+                        <p>Rangkaian unik yang diracik oleh tangan kreatif/p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box">
+                        <div class="feature-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h5>kualitas tanpa batas</h5>
+                        <p>Kepuasan Pelanggan adalah yang utama</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content" data-aos="zoom-in">
+                <h3><i class="bi bi-envelope-heart me-3"></i>THANK YOU!</h3>
+                <p>Selalu mempercayakan Bouquet Boutique Sebagai pilihan Anda!</p>
+                <form class="newsletter-form">
+                    <div class="input-group">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="footer-logo">
+                        <i class="bi bi-flower1 me-2"></i>Bouquet & Boutique
+                    </div>
+                    <p class="footer-text">Menyediakan rangkaian bunga berkualitas untuk setiap momen indah dalam hidup Anda.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/__bouquetboutique/"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <h5 class="footer-title">Menu</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#products">Produk</a></li>
+                        <li><a href="#categories">Kategori</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <h5 class="footer-title">Layanan</h5>
+                    <ul class="footer-links">
+                        <li><a href="#categories">Custom Order</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <h5 class="footer-title">Hubungi Kami</h5>
+                    <ul class="footer-links">
+                        <li>
+    <a href="https://www.google.com/maps?q=Jalan+kutorejo+Balong+RT+04+RW+05+Balong+Jenawi+Karanganyar" target="_blank">
+    <i class="bi bi-geo-alt-fill"></i>
+    Jalan kutorejo Balong RT 04/RW 05, Balong, Jenawi, Karanganyar
+    </a>
+                    </li>
+
+                        <li><a href="tel:+6285601762290"><i class="bi bi-telephone-fill"></i>+6285601762290</a></li>
+                        <li><a href="#"><i class="bi bi-clock-fill"></i>Senin - Minggu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 <a href="#">Bouquet Boutique</a>. Dibuat oleh Qoirunnisa Zalsabella Fagastya <i class="bi bi-heart-fill text-danger"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="bi bi-arrow-up"></i>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+</html>
