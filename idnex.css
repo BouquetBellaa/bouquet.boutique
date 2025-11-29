@@ -832,4 +832,23 @@
             .newsletter-content h3 {
                 font-size: 1.8rem;
             }
-        }
+        }/* Untuk HP Standar dan Kecil */
+@media (max-width: 480px) {
+    /* Membuat elemen baris menjadi vertikal (1 kolom) */
+    .row {
+        flex-direction: column;
+    }
+    /* Mengubah ukuran font dasar */
+    body {
+        font-size: 15px;
+    }
+    /* Mengurangi padding untuk Redmi/Oppo/Vivo yang lebih ringkas */
+    section {
+        padding: 30px 10px; 
+    }
+    /* Pastikan gambar tidak melebihi batas layar */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
