@@ -865,4 +865,19 @@
         padding-top: 50px;
     }
     */
+}@media (max-width: 480px) {
+    /* ... (kode Anda yang sebelumnya) ... */
+
+    /* Mengatasi Elemen Fixed/Cover di bagian atas */
+    .hero-content {
+        /* Kita sudah coba 50px, sekarang coba lebih besar */
+        margin-top: 70px !important; 
+        /* !important memastikan aturan ini menang dari aturan CSS lainnya */
+    }
+    
+    /* Jika .hero-content tidak berfungsi, coba tambahkan juga pada section: */
+    section {
+        padding-top: 70px; /* Menambah padding di bagian atas section */
+        /* ... (padding: 30px 10px; tetap dipertahankan jika sudah ada) ... */
+    }
 }
