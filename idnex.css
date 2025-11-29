@@ -851,4 +851,18 @@
         max-width: 100%;
         height: auto;
     }
+}@media (max-width: 480px) {
+    /* ... (kode Anda yang sebelumnya) ... */
+
+    /* Tambahkan margin atau padding untuk memberi jarak dari navbar/header */
+    .hero-content {
+        margin-top: 50px; /* Coba 50px dulu. Anda bisa naikkan ke 70px jika masih tertutup. */
+    }
+
+    /* Jika .hero-content tidak berfungsi, coba terapkan ke body: */
+    /*
+    body {
+        padding-top: 50px;
+    }
+    */
 }
